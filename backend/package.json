@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Janel",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "pcea_backend": "file:"
+  }
 }

@@ -1,12 +1,14 @@
 
 import './App.css'
 import Navbar from './components/navbar/navbar'
+import Hero from './components/hero/hero'
 
 function App() {
 
   return (
     <>
       <Navbar />
+      <Hero />
       <div style={{ fontFamily: "Arial, sans-serif", padding: "20px" }}>
         <header style={{ textAlign: "center", marginBottom: "20px" }}>
           <h1>PCEA Church App</h1>
