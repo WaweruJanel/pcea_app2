@@ -1,0 +1,11 @@
+{
+  "name": "pcea_backend",
+  "version": "1.0.0",
+  "description": "API'S for a pcea blog",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Janel",
+  "license": "MIT"
+}
