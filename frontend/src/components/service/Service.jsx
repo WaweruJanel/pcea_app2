@@ -2,22 +2,22 @@ import './index.css'
 
 const services = [
   {
-    icon: "📖", // Replace with your preferred icon or image
+    icon: "📖", 
     title: "About Us",
     description: "Learn about who we are and what we do.",
   },
   {
-    icon: "🎯", // Replace with your preferred icon or image
+    icon: "🎯", 
     title: "Our Mission",
     description: "To connect communities with meaningful worship.",
   },
   {
-    icon: "🌟", // Replace with your preferred icon or image
+    icon: "🌟", 
     title: "Our Vision",
     description: "A church that's relevant and impactful to all.",
   },
   {
-    icon: "💖", // Replace with your preferred icon or image
+    icon: "💖", 
     title: "Our Values",
     description: "Faith, love, service, and compassion.",
   },
