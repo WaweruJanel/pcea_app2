@@ -1,9 +1,14 @@
-import { Layout, Hero } from "../../components";
+import { 
+  Layout, 
+  Hero, 
+  Service 
+} from "../../components";
 
 function Home() {
   return (
     <Layout>
       <Hero />
+      <Service />
     </Layout>
   );
 }
