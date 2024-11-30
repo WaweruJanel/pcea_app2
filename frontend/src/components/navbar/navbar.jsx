@@ -13,9 +13,9 @@ function Navbar() {
             <div className="nav-links">
                 <a href="/">Home</a>
                 <a href="/about">About Us</a>
-                <a href="#services">Sermon</a>
-                <a href="#contact">Contact</a>
-                <a href="#login">Login</a>
+                <a href="/services">Sermon</a>
+                <a href="/contact">Contact</a>
+                <a href="/login">Login</a>
                 <button className="donate">
                     Donate
                 </button>
@@ -23,5 +23,4 @@ function Navbar() {
         </div>
     );
 }
-
 export default Navbar;
