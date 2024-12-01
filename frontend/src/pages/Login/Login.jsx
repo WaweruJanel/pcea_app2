@@ -1,12 +1,11 @@
-import React, { useState } from 'react';
-import axios from 'axios';
-import { useNavigate } from 'react-router-dom';
+import { useState } from 'react';
+/*import axios from 'axios';*/
 
 function LoginPage() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
-  const navigate = useNavigate();
+
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -14,15 +13,10 @@ function LoginPage() {
     const loginData = { email, password };
 
     try {
-      // Replace with your backend URL
-      const response = await axios.post('http://your-backend-url/api/login', loginData);
-
-      if (response.status === 200) {
-        // Redirect to the homepage or dashboard upon successful login
-        navigate('/dashboard');
-      }
-    } catch (err) {
-      setError('Invalid credentials, please try again.');
+      console.log(loginData);
+     
+    } catch (error) {
+      setError(error.response.data.error);  
     }
   };
 
