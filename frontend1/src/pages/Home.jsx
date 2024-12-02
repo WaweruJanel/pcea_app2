@@ -1,14 +1,16 @@
 import { 
   Layout, 
   Hero, 
-  Service 
-} from "../../components";
+  Service,
+  Ministries,
+} from "../components";
 
 function Home() {
   return (
     <Layout>
       <Hero />
       <Service />
+      <Ministries />
     </Layout>
   );
 }
