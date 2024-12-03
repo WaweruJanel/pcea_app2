@@ -6,7 +6,8 @@ interface ButtonProps {
   color?: 'blue' | 'red' | 'green' | 'yellow' | 'gray'| 'primary'; 
   size?: 'sm' | 'md' | 'lg';
   className?: string; 
-  [key: string]: string | number | boolean | undefined;
+  onClick?: () => void;
+  [key: string]: string | number | boolean | undefined | (() => void);
 }
 
 const Button = ({
